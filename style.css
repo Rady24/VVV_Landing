@@ -418,9 +418,28 @@ body {
     color: #CFD8DC;
     padding-left: 16px;
 }
+
 .leaderboard__top-list{
     margin-top: 24px;
 }
+
+.leaderboard__top-list__container {
+    padding: 2px;
+    border-radius: 8px;
+}
+
+.leaderboard__top-list__container--gold {
+    background: linear-gradient(173deg, #ffc107 8%, rgba(255, 193, 7, 0) 25%),linear-gradient(-6deg, #ffc107 8%, rgba(255, 193, 7, 0) 25%);
+}
+
+.leaderboard__top-list__container--silver {
+    background: linear-gradient(173deg, #eceff1 8%, rgba(236, 239, 241, 0) 25%),linear-gradient(-6deg, #eceff1 8%, rgba(236, 239, 241, 0) 25%);
+}
+
+.leaderboard__top-list__container--bronze {
+    background: linear-gradient(173deg, #e65100 8%, rgba(230, 81, 0, 0) 25%),linear-gradient(-6deg, #e65100 8%, rgba(230, 81, 0, 0) 25%);
+}
+
 .leaderboard__top-list__wrapper{
     position: relative;
     display: flex;
